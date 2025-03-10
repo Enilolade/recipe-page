@@ -18,7 +18,7 @@ This is my solution to the [Recipe Page Challenge on Frontend Mentor](https://ww
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Enilolade/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Recipe Live Site](https://enilolade.github.io/recipe-page/)
 
 ## My process
 
