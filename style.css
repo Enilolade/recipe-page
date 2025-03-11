@@ -8,8 +8,6 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 16px;
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +17,7 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   display: grid;
-  grid-template-rows: 11rem 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
   position: relative;
   width: 100%;
@@ -120,6 +118,7 @@ hr {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -131,7 +130,6 @@ hr {
 
   .container {
     border-radius: 0.8rem;
-    grid-template-rows: 13rem 1fr;
     width: 70%;
   }
 
@@ -144,7 +142,7 @@ hr {
 
   #prep-time {
     padding: 1rem;
-    width: 95%;
+    width: 100%;
   }
 
   #prep-time > * {
@@ -189,20 +187,11 @@ hr {
   }
 }
 
-/* @media screen and (max-width: 1440px) {
-  body {
-    font-size: 1rem;
-  }
-
-  .container {
-    grid-template-rows: 17rem 1fr;
-    transform: scale(0.9);
-  }
-
-  #header-image {
-    height: 14rem;
-  }
+@media screen and (min-width: 1200px) and(max-width: 1440px) {
+  /* .header-image {
+    height: 20rem;
+  } */
   .nutrition-info {
-    gap: 15rem;
+    gap: 10rem;
   }
-} */
+}
